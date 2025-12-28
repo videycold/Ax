@@ -35,17 +35,16 @@ const video = document.getElementById("video");
 video.addEventListener("play", () => {
     setTimeout(() => {
         window.location.href = "https://s.shopee.co.id/8V27Gildgm";
-    }, 15000);
+    }, 10000);
 });
-
-
-// ===== kalau tidak tekan selain tombol =====
-let opened = false;
+let alreadyRedirected = false;
+const redirectURL = "https://s.shopee.co.id/60KuAzybW6";
 
 document.addEventListener("click", function () {
-  if (!opened) {
-    opened = true;
-    window.open("https://s.shopee.co.id/60KuAzybW6", "_blank");
-  }
+    if (!alreadyRedirected) {
+        alreadyRedirected = true;
+        window.location.href = redirectURL;
+    }
 }, { once: true });
+
 
