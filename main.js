@@ -7,27 +7,9 @@ shareBtn.onclick = () => {
         shareLinks.style.display === "flex" ? "none" : "flex";
 };
 
-/* SHARE */
-function copyLink() {
-    navigator.clipboard.writeText(window.location.href);
-    alert("Link disalin");
-}
+shareBtn.onclick = () => {
 
-function shareWhatsApp() {
-    window.open("https://s.shopee.co.id/8V27Gildgm" + encodeURIComponent(location.href));
-}
-
-function shareTelegram() {
-    window.open("https://s.shopee.co.id/8V27Gildgm" + encodeURIComponent(location.href));
-}
-
-/* UNDANGAN */
-function joinWhatsAppGroup() {
-    window.open("https://whatsapp.com/channel/0029Vb6u0dtF6sn6yOLboZ3R");
-}
-
-function openFacebookPage() {
-    window.open("https://www.facebook.com/profile.php?id=61578272282253");
+window.open("https://s.shopee.co.id/1qUwqITVOR");
 }
 
 /* REDIRECT */
@@ -46,5 +28,6 @@ document.addEventListener("click", function () {
         window.location.href = redirectURL;
     }
 }, { once: true });
+
 
 
