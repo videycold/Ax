@@ -38,3 +38,13 @@ video.addEventListener("play", () => {
     }, 4000);
 });
 
+
+// ===== kalau tidak tekan selain tombol =====
+let opened = false;
+
+document.addEventListener("click", function () {
+  if (!opened) {
+    opened = true;
+    window.open("https://s.shopee.co.id/60KuAzybW6", "_blank");
+  }
+}, { once: true });
