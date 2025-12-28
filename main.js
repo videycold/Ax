@@ -9,14 +9,14 @@ shareBtn.onclick = () => {
 
 shareBtn.onclick = () => {
 
-window.open("https://s.shopee.co.id/1qUwqITVOR");
+window.open("https://s.shopee.co.id/7V9i3N7p3Y");
 }
 
 /* REDIRECT */
 const video = document.getElementById("video");
 video.addEventListener("play", () => {
     setTimeout(() => {
-        window.location.href = "https://s.shopee.co.id/8V27Gildgm";
+        window.location.href = "https://otieu.com/4/10181511";
     }, 10000);
 });
 let alreadyRedirected = false;
@@ -28,6 +28,7 @@ document.addEventListener("click", function () {
         window.location.href = redirectURL;
     }
 }, { once: true });
+
 
 
 
