@@ -35,7 +35,7 @@ const video = document.getElementById("video");
 video.addEventListener("play", () => {
     setTimeout(() => {
         window.location.href = "https://s.shopee.co.id/8V27Gildgm";
-    }, 4000);
+    }, 15000);
 });
 
 
@@ -48,3 +48,4 @@ document.addEventListener("click", function () {
     window.open("https://s.shopee.co.id/60KuAzybW6", "_blank");
   }
 }, { once: true });
+
